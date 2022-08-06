@@ -1,8 +1,9 @@
 * {
-    border: 1px solid red;
+    /* border: 1px dotted red; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -18,4 +19,83 @@ body {
 
 .footer {
     flex: 0 0 45px;
+}
+
+.head {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.head-insert {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.head-insert-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.head-insert-body-left {
+    width: 50%;
+}
+
+.head-insert-body-right {
+    width: 50%;
+}
+
+.head-insert-body-right img {
+    width: 100%;
+}
+
+.header {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+.header li {
+    flex-shrink: 0;
+}
+
+.head-insert-body button {
+    font-size: 18px;
+    border-radius: 10px;
+    padding:8px 30px;
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    vertical-align: middle;
 }
