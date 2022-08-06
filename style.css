@@ -10,11 +10,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 
 .main {
     flex: 1;
-    align-content: stretch;
 }
 
 .footer {
@@ -98,4 +98,33 @@ body {
     color: white;
     border: none;
     vertical-align: middle;
+}
+
+.quote {
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote .quotation, .attribution {
+    width: 65%;
+    color: #1F2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quotation {    
+    font-style: italic;
+    text-align: left;
+    font-size:  36px;
+}
+
+.attribution {
+    font-weight: bolder;
+    text-align: right;
+    margin-top: 5px;
+    font-size: 32px;
 }
